@@ -6,3 +6,4 @@ print(a)
 b=a
 print(b+a)
 print(b-a)
+n=b
