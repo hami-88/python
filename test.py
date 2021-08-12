@@ -1,9 +1,4 @@
-print("hello")
-a=5
-print(a)
-a=10
-print(a)
-b=a
-print(b+a)
-print(b-a)
-n=b
+firstN = 'hamed '
+lastN = 'namvar '
+output = f'hello, {firstN}{ lastN}'
+print(output)
