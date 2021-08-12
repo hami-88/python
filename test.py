@@ -19,9 +19,9 @@ print('second: ' + str(current_date.second))
 one_day = timedelta(days = 1)
 yesterday = current_date - one_day
 print('yesterday : ' + str(yesterday))
-birthday = input('your birthday (dd/mm/yyyy)')
-birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
-print('birthday: ' + str(birthday_date))
+#birthday = input('your birthday (dd/mm/yyyy)')
+#birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
+#print('birthday: ' + str(birthday_date))
 
 price = input('how much did you pay?')
 price = float(price)
